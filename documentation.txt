@@ -1,0 +1,58 @@
+----------------------------------------
+HTML Fundamentals Assignment Documentation
+----------------------------------------
+
+Student Name: Harsh Kumar  
+Course: B.Tech (CSE)  
+Assignment: Personal Portfolio Website  
+Year: 2025
+
+----------------------------
+1. HTML Elements Used
+----------------------------
+
+- <h1> to <h6> : Used to create heading levels and structure the content hierarchy.
+- <p>          : Used to write paragraphs for About Me and My Hobbies sections.
+- <ul>, <li>   : Used to create an unordered list of my skills.
+- <ol>, <li>   : Used to list my educational background in order.
+- <img>        : Used to insert an image with proper alt text for accessibility.
+- <table>      : Used to show my work experience in a structured row-column format.
+- <nav>        : Used to build a navigation menu linking to other pages.
+- <form>       : Used in contact.html to collect user inputs.
+- <input>      : Used to create form fields such as name, email, date, etc.
+- <select>     : Used to create a dropdown selection.
+- <textarea>   : Used to allow users to write a message in the form.
+- <footer>     : Used at the bottom of the page for copyright.
+- <hr>         : Used to visually separate content sections.
+- Semantic tags: <header>, <main>, <section>, <footer> used to enhance structure.
+
+----------------------------------
+2. Why Specific Input Types Were Used
+----------------------------------
+
+- type="text"     : For user name input.
+- type="email"    : Automatically validates proper email format.
+- type="tel"      : Accepts phone number input.
+- type="date"     : Allows the user to pick a preferred contact date.
+- type="radio"    : Allows selection of one option among several (e.g., inquiry type).
+- type="checkbox" : Allows selection of multiple contact methods.
+- type="range"    : Used to collect satisfaction level using a slider.
+- required        : Ensures all necessary form fields must be filled before submission.
+- pattern         : Helps to apply input format validation (if needed).
+
+----------------------------
+3. Navigation Structure
+----------------------------
+
+- A <nav> tag was used to include a navigation menu on all pages.
+- It includes links to:
+   • Home page (portfolio.html)
+   • About Me page (about.html)
+   • Contact page (contact.html)
+- All links are *relative*, meaning they work correctly when all HTML files are in the same folder.
+- The navigation helps users easily explore the portfolio website.
+
+--------------------------
+Prepared by: Harsh Kumar  
+© 2025 My Portfolio
+--------------------------
