@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+   <link rel="icon" type="image/png" href="contact.image.png">
+</head>
+<body>
+  <header>
+    <h1>Contact Me!</h1>
+    <nav>
+      <a href="portfolio.html">Back to Home|</a>
+      <a href="portfolio.html">About Me</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <label>Preferred Contact Method:</label><br>
+      <input type="checkbox" name="method" value="email"> Email
+      <input type="checkbox" name="method" value="phone"> Phone
+      <input type="checkbox" name="method" value="text"> Text<br><br>
+
+      <label>Type of Inquiry:</label><br>
+      <input type="radio" name="inquiry" value="general" required> General
+      <input type="radio" name="inquiry" value="business"> Business
+      <input type="radio" name="inquiry" value="support"> Support<br><br>
+
+  <label for="preferred-date">Preferred Date:</label>
+  <input type="date" id="preferred-date" name="preferred-date" required>
+  <br><br>
+
+  <label>Satisfaction Level:</label><br>
+  <input type="radio" id="satisfied" name="satisfaction" value="Satisfied" required>
+  <label for="satisfied">😊 Satisfied</label><br>
+
+  <input type="radio" id="neutral" name="satisfaction" value="Neutral">
+  <label for="neutral">😐 Neutral</label><br>
+
+  <input type="radio" id="unsatisfied" name="satisfaction" value="Unsatisfied">
+  <label for="unsatisfied">🙁 Unsatisfied</label><br>
+
+
+  <br><button type="submit">Submit</button>
+  <hr>
+
+  <footer><p>© 2025 My Portfolio. All rights reserved.</p></footer>
+    </form>
+  </main>
+</body>
+</html>
